@@ -1,0 +1,18 @@
+This is an updated copy of my tf2 cfgs. I enjoy tweaking my cfgs and coming up with new ways to control my characters actions. In my mind, the more I tweak my cfgs, the more the game fits like a well work leather boot.
+
+without mastercomfig, the autoexec and class cfg files are normally found in tf/cfg/ but since I'm using mastercomfig, these all get placed in a folder called overrides which in turn belongs in tf/cfg.
+
+
+Some of the changes present in these cfgs include:
+
+- a toggle state system where a large number of aliases are overwritten upon pressing shift, and returned to their normal action upon releasing shift.
+This includes weapon switches, jumps vs crouch jumps, chat binds, and resup binds.
+
+- a stateful set of loadout-dependent aliases, allowing different behavior on different loadouts. 
+For example on soldier, using loadout 0 expects the use of gunboats and makes my default weapon switch cycle between rocket and melee rather then rocket and secondary. On loadout 1, it's expected that im running shotgun so the behavior is instead that my default weapon switch cycles between rocket and secondary.
+
+- a automatic crouch jump that still allows ctaps and normal jumps. 
+The default spacebar now engages crouch which means rj and surfing with a single button. However, you need a non crouched jump in order to ctap, so pressing crouch causes the next press of space to be a non crouched jump (afte which space rebinds itself to a crouch jump on subsequent presses). Furthermore, holding shift will always allow a non-crouched jump (mostly useful on jump maps)
+
+- lots of aliases to facilitate server commands, demo playback, and chat binds
+
